@@ -1,27 +1,27 @@
-package src.main.java._02_estruturas_condicionais.ex6_valores_aleatorios;
+package _02_estruturas_condicionais.ex6_valores_aleatorios;
 
 import java.util.Scanner;
 import java.util.Locale;
 
 public class Main {
-    public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
 
-        double numero = sc.nextDouble();
+		double numero = sc.nextDouble();
 
-        if (numero < 0.0 || numero > 100.0) {
-            System.out.println("Fora de intervalo");
-        } else if (numero <= 25.0) {
-            System.out.println("Intervalo [0,25]");
-        } else if (numero <= 50.0) {
-            System.out.println("Intervalo (25,50]");
-        } else if (numero <= 75.0) {
-            System.out.println("Intervalo (50,75]");
-        } else {
-            System.out.println("Intervalo (75,100]");
-        }
+		if (numero < 0.0 || numero > 100.0) {
+			System.out.println("Fora de intervalo");
+		} else if (numero <= 25.0) {
+			System.out.println("Intervalo [0,25]");
+		} else if (numero <= 50.0) {
+			System.out.println("Intervalo (25,50]");
+		} else if (numero <= 75.0) {
+			System.out.println("Intervalo (50,75]");
+		} else {
+			System.out.println("Intervalo (75,100]");
+		}
 
-        sc.close();
-    }
+		sc.close();
+	}
 }

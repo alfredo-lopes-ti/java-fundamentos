@@ -1,0 +1,16 @@
+java-fundamentos/
+├── pom.xml
+├── README.md
+└── src/main/java/
+    ├── _01_sintaxe_basica/
+    │   (variáveis, tipos primitivos, casting, operadores aritméticos/lógicos)
+    ├── _02_entrada_saida/
+    │   (Scanner, System.out, formatação de saída com printf/String.format)
+    ├── _03_estruturas_condicionais/
+    │   (if/else, switch, operador ternário)
+    ├── _04_estruturas_repeticao/
+    │   (for, while, do-while, break/continue)
+    ├── _05_arrays_e_metodos/
+    │   (arrays de tipos primitivos, métodos estáticos, parâmetros, retorno)
+    └── _06_strings_e_manipulacao/
+        (String, StringBuilder, métodos de manipulação de texto)
