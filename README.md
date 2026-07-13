@@ -15,16 +15,15 @@ Repositório dedicado à prática dos fundamentos da linguagem Java: sintaxe bá
 
 ## 📂 Organização do Repositório
 
-O projeto segue a estrutura padrão do Maven (`src/main/java/`), organizada em módulos numerados por ordem de aprendizado:
+O projeto segue a estrutura padrão do Maven (`src/main/java/`), organizada em módulos numerados por ordem de aprendizado. Cada exercício fica em seu próprio pacote/pasta e inclui um comentário Javadoc no topo do `Main.java` com o enunciado do problema.
 
-| Módulo | Conceito Praticado |
-| :--- | :--- |
-| `📦 _01_sintaxe_basica` | Variáveis, tipos primitivos, casting, operadores aritméticos e lógicos. |
-| `📦 _02_entrada_saida` | Leitura de dados com `Scanner`, saída formatada (`System.out`, `printf`, `String.format`). |
-| `📦 _03_estruturas_condicionais` | `if/else`, `switch`, operador ternário. |
-| `📦 _04_estruturas_repeticao` | `for`, `while`, `do-while`, `break`/`continue`. |
-| `📦 _05_arrays_e_metodos` | Arrays de tipos primitivos, métodos estáticos, parâmetros e retorno. |
-| `📦 _06_strings_e_manipulacao` | `String`, `StringBuilder` e métodos de manipulação de texto. |
+| Módulo | Conceito Praticado | Exercícios |
+| :--- | :--- | :--- |
+| `📦 _01_sintaxe_basica` | Variáveis, tipos primitivos, casting, operadores aritméticos, `Scanner`, `Math`. | 08 |
+| `📦 _02_estruturas_condicionais` | `if/else`, `switch`, operador ternário. | 12 |
+| `📦 _03_estruturas_repeticao` | `for`, `while`, casos de teste em lote. | 07 |
+| `📦 _04_arrays_e_metodos` | Arrays de tipos primitivos, métodos estáticos, parâmetros e retorno. | 🚧 em construção |
+| `📦 _05_strings_e_manipulacao` | `String`, `StringBuilder` e métodos de manipulação de texto. | 🚧 em construção |
 
 ---
 
@@ -47,13 +46,13 @@ O projeto segue a estrutura padrão do Maven (`src/main/java/`), organizada em m
    ```bash
    mvn compile
    ```
-4. Execute qualquer classe `Main`/`Program` diretamente pela sua IDE, ou via terminal, apontando para a classe desejada, por exemplo:
+4. Execute qualquer classe `Main` diretamente pela sua IDE, ou via terminal, apontando para o pacote do exercício desejado, por exemplo:
    ```bash
-   java -cp target/classes _01_sintaxe_basica.Main
+   java -cp target/classes _01_sintaxe_basica.ex01_precificacao_produto.Main
    ```
 
 ---
 
 ## 📌 Sobre este repositório
 
-Cada módulo é independente e contém exemplos comentados em português, explicando não só o código, mas o raciocínio por trás de cada conceito. A ideia é servir como base sólida antes de avançar para Orientação a Objetos e, posteriormente, para frameworks como Spring Boot.
+Cada exercício é independente e contém um comentário Javadoc explicando o enunciado do problema, além de comentários no corpo do código explicando o raciocínio por trás de cada conceito. A ideia é servir como base sólida antes de avançar para Orientação a Objetos e, posteriormente, para frameworks como Spring Boot.
