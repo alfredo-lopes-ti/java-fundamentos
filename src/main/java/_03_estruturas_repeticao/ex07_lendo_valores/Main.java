@@ -1,4 +1,4 @@
-package _03_estruturas_repeticao.ex08_lendo_valores;
+package _03_estruturas_repeticao.ex07_lendo_valores;
 
 import java.util.Scanner;
 
