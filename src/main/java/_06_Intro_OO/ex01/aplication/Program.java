@@ -1,8 +1,8 @@
-package _06_Intro_OO.aplication;
+package _06_Intro_OO.ex01.aplication;
 
 import java.util.Scanner;
 import java.util.Locale;
-import _06_Intro_OO.entities.Triangle;
+import _06_Intro_OO.ex01.entities.Triangle;
 
 public class Program {
 
