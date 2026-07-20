@@ -22,8 +22,7 @@ O projeto segue a estrutura padrão do Maven (`src/main/java/`), organizada em m
 | `📦 _01_sintaxe_basica` | Variáveis, tipos primitivos, casting, operadores aritméticos, `Scanner`, `Math`. | 08 |
 | `📦 _02_estruturas_condicionais` | `if/else`, `switch`, operador ternário. | 12 |
 | `📦 _03_estruturas_repeticao` | `for`, `while`, casos de teste em lote. | 07 |
-| `📦 _04_arrays_e_metodos` | Arrays de tipos primitivos, métodos estáticos, parâmetros e retorno. | 🚧 em construção |
-| `📦 _05_strings_e_manipulacao` | `String`, `StringBuilder` e métodos de manipulação de texto. | 🚧 em construção |
+| `📦 _04_classes_e_metodos` | Arrays de tipos primitivos, métodos estáticos, parâmetros e retorno. | 🚧 em construção |
 
 ---
 
