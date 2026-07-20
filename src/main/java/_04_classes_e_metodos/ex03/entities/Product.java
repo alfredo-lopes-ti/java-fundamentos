@@ -1,4 +1,4 @@
-package _06_Intro_OO.ex03.entities;
+package _04_classes_e_metodos.ex03.entities;
 
 public class Product {
 

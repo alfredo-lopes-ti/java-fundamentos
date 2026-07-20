@@ -1,4 +1,4 @@
-package _06_Intro_OO.ex02.entities;
+package _04_classes_e_metodos.ex02.entities;
 
 public class OrdemServico {
 

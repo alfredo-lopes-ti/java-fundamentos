@@ -1,8 +1,8 @@
-package _06_Intro_OO.ex03.aplication;
+package _04_classes_e_metodos.ex03.aplication;
 
 import java.util.Locale;
 import java.util.Scanner;
-import _06_Intro_OO.ex03.entities.Product;
+import _04_classes_e_metodos.ex03.entities.Product;
 
 public class Program {
     public static void main(String[] args) {

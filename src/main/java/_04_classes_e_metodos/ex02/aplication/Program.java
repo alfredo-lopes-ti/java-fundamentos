@@ -1,8 +1,8 @@
-package _06_Intro_OO.ex02.aplication;
+package _04_classes_e_metodos.ex02.aplication;
 
 import java.util.Scanner;
 import java.util.Locale;
-import _06_Intro_OO.ex02.entities.OrdemServico;
+import _04_classes_e_metodos.ex02.entities.OrdemServico;
 
 public class Program {
 

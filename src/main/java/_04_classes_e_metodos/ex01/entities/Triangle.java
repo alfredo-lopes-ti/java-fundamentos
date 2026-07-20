@@ -1,4 +1,4 @@
-package _06_Intro_OO.ex01.entities;
+package _04_classes_e_metodos.ex01.entities;
 
 public class Triangle {
 
