@@ -3,6 +3,12 @@ package _05_arrays_e_listas.ex02.aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
+/*
+Faça um programa que leia N números reais e armazene-os em um vetor. Em seguida:
+- Imprimir todos os elementos do vetor
+- Mostrar na tela a soma e a média dos elementos do vetor
+ */
+
 public class Program {
 
     public static void main(String[] args) {
