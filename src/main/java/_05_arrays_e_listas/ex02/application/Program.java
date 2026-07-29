@@ -1,4 +1,4 @@
-package _05_arrays_e_listas.ex02.aplication;
+package _05_arrays_e_listas.ex02.application;
 
 import java.util.Locale;
 import java.util.Scanner;
